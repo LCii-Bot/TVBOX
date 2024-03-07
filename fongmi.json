@@ -48,6 +48,7 @@
       "changeable": 1,
       "ext": "./json/jianpian.json"
     },
+{"key":"drpy_js_ikanbot3","name":"爱看","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"./js/ikanbot3.js"},
     {
       "key": "獨播",
       "name": "獨播",
@@ -98,22 +99,6 @@
         "纪录片",
         "经典片"
       ]
-    },
-    {
-      "key": "996影院",
-      "name": "996影院",
-      "type": 3,
-      "api": "csp_Cs1369",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "短劇",
-      "name": "短劇",
-      "type": 3,
-      "api": "csp_Duanju",
-      "searchable": 1,
-      "changeable": 0
     },
     {
       "key": "豆瓣",
@@ -229,7 +214,7 @@
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js",
+      "api": "./cat/js/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
@@ -401,6 +386,7 @@
         "cdn.kin6c1.com",
         "c.biggggg.com",
         "c.olddddd.com",
+        "haiwaikan.com",
         "www.histar.tv",
         "youtube.com",
         "uhibo.com",
@@ -409,6 +395,24 @@
         ".*ulivetv.*"
       ]
     },
+    {
+      "name": "海外看",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "8.16",
+        "8.1748",
+        "10.0099",
+        "10.3333",
+        "10.85",
+        "12.33",
+        "16.0599"
+      ]
+    },
+    {"name":"海外看1","hosts": ["haiwaikan"],"regex": ["#EXTINF:(0|1|2|7\\.90).*?\\s+.*?921c07e8bfad6789.*?\\.ts\\s+"]},
+    {"name":"海外看2","hosts":["haiwaikan"],"regex":["10.0099","10.3333","16.0599","8.1748","10.85","10.333332"]},
+    {"name":"海外看3","hosts":["haiwaikan.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175833,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175832,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
     {
       "name": "索尼",
       "hosts": [
@@ -511,10 +515,7 @@
       "script": [
         "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
       ]
-    },
-    {"name":"海外看1","hosts": ["haiwaikan"],"regex": ["#EXTINF:(0|1|2|7\\.90).*?\\s+.*?921c07e8bfad6789.*?\\.ts\\s+"]},
-    {"name":"海外看2","hosts":["haiwaikan"],"regex":["10.0099","10.3333","16.0599","8.1748","10.85","10.333332"]},
-    {"name":"海外看3","hosts":["haiwaikan.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175833,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175832,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+    }
   ],
   "ads": [
     "static-mozai.4gtv.tv",
