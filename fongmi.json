@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;034284ac61c7bc4f5e9acf7937889bb3",
+  "spider": "./jar/custom_spider.jar;md5;6a77140c25470026f08522e50103cf8d",
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
     {
@@ -401,28 +401,12 @@
         "cdn.kin6c1.com",
         "c.biggggg.com",
         "c.olddddd.com",
-        "haiwaikan.com",
         "www.histar.tv",
         "youtube.com",
         "uhibo.com",
         ".*boku.*",
         ".*nivod.*",
         ".*ulivetv.*"
-      ]
-    },
-    {
-      "name": "海外看",
-      "hosts": [
-        "haiwaikan"
-      ],
-      "regex": [
-        "8.16",
-        "8.1748",
-        "10.0099",
-        "10.3333",
-        "10.85",
-        "12.33",
-        "16.0599"
       ]
     },
     {
@@ -530,5 +514,7 @@
     }
   ],
   "ads": [
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net"
   ]
 }
