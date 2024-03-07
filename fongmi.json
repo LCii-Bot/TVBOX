@@ -511,7 +511,10 @@
       "script": [
         "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
       ]
-    }
+    },
+    {"name":"海外看1","hosts": ["haiwaikan"],"regex": ["#EXTINF:(0|1|2|7\\.90).*?\\s+.*?921c07e8bfad6789.*?\\.ts\\s+"]},
+    {"name":"海外看2","hosts":["haiwaikan"],"regex":["10.0099","10.3333","16.0599","8.1748","10.85","10.333332"]},
+    {"name":"海外看3","hosts":["haiwaikan.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175833,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175832,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
   ],
   "ads": [
     "static-mozai.4gtv.tv",
